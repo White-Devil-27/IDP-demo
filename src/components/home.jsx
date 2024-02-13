@@ -250,7 +250,7 @@ export default function Home(){
                 { fileContent&& (
                     <div>
                     <h4>Preview</h4>
-                    <img src={fileContent} alt="Uploaded" style={{ maxWidth: '100%', maxHeight: '200px', left : '10px' }} />
+                    <img src={fileContent} alt="preview" style={{ maxWidth: '100%', maxHeight: '200px', left : '10px' }} />
                     </div>
                 )}
             </div>

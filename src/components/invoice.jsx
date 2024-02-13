@@ -6,7 +6,7 @@ export default function Invoice(props){
             <div className='container mt-5'>
                 <div className='row'>
                     <div className='col-sm-6'>
-                        <img src={props.img} style={{ width: '80%' , height : '80%'}} className="img-thumbnail" ></img> 
+                        <img src={props.img} style={{ width: '80%' , height : '80%'}} className="img-thumbnail" alt="invoice"></img> 
                     </div>
                     <div className='col-sm-6'>
                         <div className='col-sm-4 text-center p-2 inv--box'>

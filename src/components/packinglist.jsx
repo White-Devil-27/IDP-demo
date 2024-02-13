@@ -6,7 +6,7 @@ export default function Packing(props){
             <div className='container mt-5'>
                 <div className='row'>
                     <div className='col-sm-6'>
-                        <img src={props.img} style={{ width: '100%', height: '70%' }} className="img-thumbnail"></img> 
+                        <img src={props.img} style={{ width: '100%', height: '70%' }} className="img-thumbnail" alt="packing"></img> 
                     </div>
                     <div className='col-sm-6'>
                         <div className='col-sm-6 text-center p-2 pl--box'>
